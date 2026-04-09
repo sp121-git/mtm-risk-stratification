@@ -143,8 +143,7 @@ RISK_COLORS = {"High": "#ef4444", "Medium": "#f59e0b", "Low": "#10b981"}
 # -----------------------------
 # File path
 # -----------------------------
-BASE_DIR  = Path.home() / "Desktop" / "MTM_Risk_project"
-DATA_PATH = BASE_DIR / "data" / "scored_data.csv"
+DATA_PATH = Path("data/scored_data.csv")
 
 
 # -----------------------------
